@@ -4,13 +4,16 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.h1}>Hola Coder</Text>
+      <Text style={styles.h1}>Hola, Coder!</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  h1: {
+    fontSize: 32,
+  },
   container: {
     flex: 1,
     backgroundColor: "#fff",
